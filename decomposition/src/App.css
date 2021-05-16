@@ -182,3 +182,15 @@ p {
   margin-top: 10px;
   text-align: initial;
 }
+
+.banner {
+  text-align: initial;
+  width: 90%;
+  margin-left: 140px;
+}
+
+.banner img {
+  height: 200px;
+  width: 100%;
+  margin-top: 30px;
+}
