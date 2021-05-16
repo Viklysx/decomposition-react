@@ -73,7 +73,9 @@ p {
 
 .container-top {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
   margin-top: 30px;
 }
 
@@ -107,17 +109,18 @@ p {
 }
 
 .container-rate-list span {
-  margin-right: 10px;
+  margin-left: 10px;
 }
 
 .currency {
   font-weight: bold;
 }
 
-.widjet-title {
+.widjet-title, .service-item {
   color: #0054b9;
   font-size: 123%;
   font-weight: 500;
+  cursor: pointer;
 }
 
 .widjet-img {
@@ -128,5 +131,17 @@ p {
   display: flex;
   flex-direction: column;
   align-items: baseline;
+  justify-content: center;
+}
+
+.services span {
+  margin-left: 10px;
+}
+
+.services {
+  text-align: left;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 30px;
 }
 
