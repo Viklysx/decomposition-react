@@ -145,3 +145,40 @@ p {
   margin-top: 30px;
 }
 
+.search-wrapper input {
+  display: flex;
+  border: 2px solid #fc0;
+  width: 100%;
+  cursor: pointer;
+  outline: none;
+}
+
+.search-wrapper button {
+  border: none;
+  background: #fc0;
+  padding: 0 1.125rem;
+  font-size: 123.1%;
+  cursor: pointer;
+  clip-path: polygon(90% 0%, 100% 50%, 90% 100%, 0% 100%, 0 54%, 0% 0%);
+}
+
+.search-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.search-wrapper-block {
+  width: 100%;
+  margin-top: 33px;
+}
+
+.search-wrapper-block-elems {
+  display: flex;
+  height: 35px;
+  width: 100%;
+}
+
+.search-wrapper-description {
+  margin-top: 10px;
+  text-align: initial;
+}
