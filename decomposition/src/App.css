@@ -60,6 +60,7 @@ ul .active {
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 p {
@@ -123,6 +124,10 @@ p {
   cursor: pointer;
 }
 
+.card-item-title {
+  margin-bottom: 10px;
+}
+
 .service-item {
   font-size: 100%;
 }
@@ -147,6 +152,7 @@ p {
   width: 90%;
   margin: 0 auto;
   margin-top: 30px;
+  margin-left: 130px;
 }
 
 .search-wrapper input {
@@ -203,7 +209,8 @@ p {
   display: flex;
   flex-direction: column;
   align-items: baseline;
-  width: 22%;
+  position: relative;
+  margin-bottom: 30px;
 }
 
 .card-item-temperature {
@@ -217,11 +224,38 @@ p {
 }
 
 .card-item-block {
-  display: flex;
-  width: 100%;
+  display: flex; 
   justify-content: space-between;
+  width: 65%;
 }
 
 .average-temperature {
   font-size: xx-large;
+}
+
+.visited span {
+  font-weight: 700;
+}
+
+.visited, .channel  {
+  padding: 5px 0px;
+}
+
+.airing {
+  position: absolute;
+  right: 0;
+  top: 0;
+  right: 35%;
+}
+
+.wrapper-card {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-left: 140px;
+  margin-top: 30px;
+}
+
+.wrapper-card-block {
+  width: 100%;
 }
